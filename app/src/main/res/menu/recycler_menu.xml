@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/action_recycle"
+            android:title="加载复用"
+    />
+
+    <item
+            android:id="@+id/action_nested1"
+            android:title="嵌套NestedScrollView"
+    />
+
+    <item
+            android:id="@+id/action_section"
+            android:title="Rv嵌套Rv实现section"
+    />
+
+    <item
+            android:id="@+id/action_section2"
+            android:title="单一Rv实现section"
+    />
+
+    <!--<item-->
+    <!--android:id="@+id/action_recycle"-->
+    <!--android:title="recycler加载复用"-->
+    <!--/>-->
+
+    <!--<item-->
+    <!--android:id="@+id/action_recycle"-->
+    <!--android:title="recycler加载复用"-->
+    <!--/>-->
+
+    <!--<item-->
+    <!--android:id="@+id/action_recycle"-->
+    <!--android:title="recycler加载复用"-->
+    <!--/>-->
+
+</menu>

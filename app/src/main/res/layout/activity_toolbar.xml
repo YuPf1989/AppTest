@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                     xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                     android:orientation="vertical"
+                                                     android:layout_width="match_parent"
+                                                     android:layout_height="match_parent">
+
+
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="match_parent"
+                                                     android:layout_height="250dp" android:id="@+id/appbar">
+
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:layout_width="match_parent"
+                                                                    android:layout_height="match_parent"
+                                                                    app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+            <ImageView android:layout_width="match_parent" android:layout_height="match_parent"
+                       android:background="@drawable/banner1" app:layout_collapseMode="parallax"/>
+
+            <androidx.appcompat.widget.Toolbar android:layout_width="match_parent"
+                                               android:layout_height="76dp" android:id="@+id/toolbar"
+                                               app:layout_collapseMode="pin" app:contentInsetStart="0dp"
+                                               android:background="@color/colorPrimary">
+                <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+                          android:paddingTop="20dp" android:text="爱花草" android:gravity="center"
+                          android:textColor="@android:color/white"
+                />
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView android:layout_width="match_parent"
+                                               android:layout_height="match_parent" android:id="@+id/recycler"
+                                               app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
